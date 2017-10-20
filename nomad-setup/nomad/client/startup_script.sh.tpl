@@ -1,0 +1,43 @@
+#!/bin/bash
+
+set -e
+
+ADDR=$(ifconfig eth0 | grep -oP 'inet addr:\K\S+')
+
+writeNomadClientConfig() {
+  cat > /etc/nomad.d/local.hcl << EOF
+datacenter = "dc1"
+
+# let clients leave
+leave_on_interrupt = true
+leave_on_terminate = true
+
+client {
+  servers = ["${stack}-nomad-01:4647", "${stack}-nomad-02:4647", "${stack}-nomad-03:4647"]
+  node_class = "docker"
+}
+
+telemetry {
+  statsite_address = "localhost:8125"
+}
+EOF
+}
+
+writeConsulClientConfig() {
+  cat > /etc/consul.d/client.json << EOF
+{
+  "client_addr": "0.0.0.0",
+  "leave_on_terminate": true,
+	"dns_config": {
+		"allow_stale": true,
+		"max_stale": "1s"
+	},
+  "statsite_addr": "localhost:8125",
+  "advertise_addr": "$ADDR",
+  "retry_join": [ "${stack}-nomad-01", "${stack}-nomad-02", "${stack}-nomad-03" ]
+}
+EOF
+}
+
+writeNomadClientConfig
+writeConsulClientConfig
