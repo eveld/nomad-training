@@ -1,11 +1,3 @@
 {
-  "type": "service_account",
-  "private_key_id": "4051ce11376a448f1c2816e9bf1519f209bf652d",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQChpu7PMIAf2LpZ\nVw7huSU5sVc82tXVXZFm4kR0PMirx1zDIlljrBpsviULVQdUHDPPpmnmdEpip95O\nJDA/+jsygaf9uCt9F7kXSxs5FkqXmCJru37COLcIejEXqxMu0FUOGYZE34nBlHva\n5ALh9IzfN28I8ScLSZI7mF16+whsDY5wX1FUVfoni8ndduKFKqiHOsEHOaq6ZRff\nBiPRGmlSvVcuD/q8KJaedTcn0W0A6Ba2kOd9GotL8GqxSCfingeHyYfAVg00bQM1\nvJMpzYbLq4SiPVZILKR7n383olvEt2HxnVUzSOaDdsAz4ONi7czPhgOkgVZYvA3Y\nIM5cLzb7AgMBAAECggEAIKjyjOfWqxiFpfFB73cRv1NGNeRc2av66ZeDjxyMyrAP\n3Nj+yHWILTpJj72RKnw8N5L+yHHsaXxTHOSQ3ww2k6DAiTGBj9eQLNWe3WzUi0ZQ\nhgWuuZzt1geiDY8h5A5xcNTVXOrxESxnzbTNpEtdfufbRio64jvuEJ5bHLLFY9cT\nIZDiDAV7XCfAYBc0QrXHhLsCWDuH9t6rz37E9q6yinie52ML9zV763bVTxHNpPrr\nAk66GEc1xxhGCc4TIwG82LbfLPKrm00KOm+pvV4Qjdk8ZzIQ24jrVp3qP+cknUJl\ndIdnxtVvIv0QWLQmClBjzXrLVAjdXKBV61g60zr60QKBgQDLpUO3rqIQsnDRfNC/\nU7ITFs3ZIxFOfqzaE4kxcZv0KpBRPYztfW8ZIbcUuG3RBUVO+Rd2hMNA2qGXl1xI\nhrs8Sl1HGQfRCjB1CDML4Yb661eMxazZhnZXcod9KfJ8ipYssQutYlzxkM11BRxg\nyTIiyB8wMczMXFsmIAxRYySIqQKBgQDLNehuTXPj242v779IuNOpSQNDllJjavCp\n8gdUcfHvRDnpYhl2apqSo7l/rzBScOeDLYT03aKOeQB2OEEKFdKEggFvWS4rML1U\nAyjRIx6fmTjWgJWDW3Whqz4AbtUKggNN07jM/ZQzbUXfUsvhnh0Q6DReRMiUoRvu\nPaK5a8XVAwKBgA6vbkCysTEvDP+uVodVi8PgoxuDcd4NOH3JZt1P6gUjhKC3JZCC\nuR5A1ikCW7j0/liBkfWUAViN65U47wiz3pCsdCmKXovuhiwKWVQEAW3axsd6Acr1\n7VbFBYw7GCdu/wFeCw+HxlgNLyO/KJq6J4lmkQkyrigWiOQo73p3Ac1xAoGAcISo\n7mp0gPZQvdpCUEIG8PU8mW/irqnIGFGrPVbaX2Gnr1JiRu9AJ3IAhHK8jul1R20s\n8WjHWZwmZU9AtBThO/3ATadTqRaTvrEBKMwJaNWuYxdPsiwyNhJbgmHcFLVonu9c\npCTEqrUWu1FdEtA5x+LLHGd5qNKMZJ48O+8w24ECgYEAg0b6APK4Mio5qUOyg3p4\nl8FgGae8KlLqUOJtag/wgqe9h6YVe1qMiUi11VetcVisWN4TrZO9AF56zLb+2s/j\n+4n674255i0EREMz5uxKOrvS7MZLaO48dK2Nn//zdt2UJHq8HY/I2aKnVLn3THn+\nsjDjTCO1LRTdUZt9D7hAK7Q=\n-----END PRIVATE KEY-----\n",
-  "client_email": "account-1@innovation-day-nomad.iam.gserviceaccount.com",
-  "client_id": "114778604336322172645",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://accounts.google.com/o/oauth2/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/account-1%40innovation-day-nomad.iam.gserviceaccount.com"
+  "the project does no longer exist"
 }
